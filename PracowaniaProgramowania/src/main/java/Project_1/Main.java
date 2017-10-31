@@ -31,7 +31,7 @@ public class Main {
             System.out.println("WPISZ -NEXT- BY KONTYNUOWAC");
             test=scaner.nextLine();
 
-            test.toUpperCase();
+            test = test.toUpperCase();
 
         }
         Addd.execute();
