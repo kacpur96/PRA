@@ -19,14 +19,16 @@ public class Main {
         Add Addd = new Add();
 
         while(test.equals("NEXT")) {
+            System.out.println("WPISZ NUMER ZADANIA ");
             nrzad = scaner.nextLine();
+            System.out.println("WPISZ ZAPYTANIE ");
             zap = scaner.nextLine();
 
             if(Check.spr(zap)){
                 Addd.Add(nrzad,zap);
             }
 
-            System.out.println("NAPISZ NEXT BY KONTYNUOWAC");
+            System.out.println("WPISZ -NEXT- BY KONTYNUOWAC");
             test=scaner.nextLine();
 
             test.toUpperCase();
