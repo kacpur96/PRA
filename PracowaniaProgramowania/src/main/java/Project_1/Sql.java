@@ -5,9 +5,9 @@ public class Sql {
 
     public boolean spr (String text) {
         check = "";
+        test = (test.toUpperCase() + ' ');
         int t = text.length();
         int x = 0;
-        text += ' ';
 
         for (int i = 0; i < t; i++) {
             if (text.charAt(i) == ' ') {
