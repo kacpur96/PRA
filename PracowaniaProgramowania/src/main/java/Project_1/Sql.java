@@ -5,8 +5,7 @@ public class Sql {
 
     public boolean spr (String text) {
         check = "";
-        test = " ";
-        test = (test.toUpperCase() + ' ');
+        //test = (test.toUpperCase() + ' ');
         int t = text.length();
         int x = 0;
 
